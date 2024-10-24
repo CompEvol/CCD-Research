@@ -1,8 +1,8 @@
 # Skeletons in the Forest: Using Entropy-Based Rogue Detection on Bayesian Phylogenetic Tree Distributions
 This repository contains extra information, scripts and data for the research paper:
 
-**Skeletons in the Forest: Using Entropy-Based Rogue Detection on Bayesian Phylogenetic Tree Distributions**
-*Jonathan Klawitter*, *Remco R. Bouckaert*, and *Alexei J. Drummond*
+**Skeletons in the Forest: Using Entropy-Based Rogue Detection on Bayesian Phylogenetic Tree Distributions**<br>
+*Jonathan Klawitter*, *Remco R. Bouckaert*, and *Alexei J. Drummond*<br>
 [bioRxiv: 10.1101/2024.09.25.615070v1](https://www.biorxiv.org/content/10.1101/2024.09.25.615070)
 
 ## Scripts
