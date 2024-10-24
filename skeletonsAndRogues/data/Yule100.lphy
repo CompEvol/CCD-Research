@@ -1,0 +1,17 @@
+data {
+    n = {{n = 100}}; 
+    L = {{L = 300}}; 
+    nCatGamma = 4;
+    clockRate = 1.0;
+}
+model {
+	birthRate ~ LogNormal(meanlog=3.218876, sdlog=0.3);
+    shape ~ LogNormal(meanlog=-1.0, sdlog=0.5);
+    kappa ~ LogNormal(meanlog=1.0, sdlog=1.25);
+    frequencies ~ Dirichlet(conc=[5.0, 5.0, 5.0, 5.0]);
+    phi ~ Yule(lambda=birthRate, n=n); // Yule tree prior
+    siteRates ~ DiscretizeGamma(shape=shape, ncat=nCatGamma, replicates=L); // Site rates model
+
+    Q = hky(kappa=kappa, freq=frequencies); // HKY substitution model
+    D ~ PhyloCTMC(L=L, Q=Q, tree=phi, siteRates=siteRates, mu=clockRate);
+}
