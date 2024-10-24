@@ -8,6 +8,7 @@ This repository contains extra information, scripts and data for the research pa
 ## Scripts
 
 - Python script to compute WCSS coverage values and generate plots
+- TBA script that transforms output of RogueAnalysis to input format of rank plot script
 - Python script to create rank plots of rogue scores for clades of different size
 <!-- The trees are drawn with FigTree and the cloudograms are made with [DensiTree](https://www.cs.auckland.ac.nz/~remco/DensiTree/). -->
 
