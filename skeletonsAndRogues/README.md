@@ -28,8 +28,7 @@ These analyses can be conducted with the tools mentioned above;
 the RSV2 and DS7 trees used in the experiment, can be obtained [HERE](https://doi.org/10.17608/k6.auckland.27041803). 
 Alternatively, you may use the smaller RSV2 exampled provided in this repository or running this [taming the beast (time-stamped data) tutorial](https://taming-the-beast.org/tutorials/MEP-tutorial/) to obtain a chain of desired length.
 
-Th SCC trees can be obtained by rerunning the L86 [phylonco analysis](https://github.com/bioDS/beast-phylonco-paper)
-or contacting the respective authors.
+The SCC trees are linked in the respective [phylonco paper repository](https://github.com/bioDS/beast-phylonco-paper?tab=readme-ov-file#visualizing-output).
 
 ### Well-calibrated simulation study
  
