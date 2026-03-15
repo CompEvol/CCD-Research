@@ -16,7 +16,7 @@ You can test them on the provided example data.
 * `stability_and_robustness_plots` - Python script to plot the stability of estimators over thinning intervals (as in the stability experiment) 
 or their robustness under chain fragmentation (as in the robustness experiment)
 as well as to generate the summary tables
-* TBA: scripts for MDS and trace plots (with modality information)
+* MDS and trace plots (with modality information) were generated with a mix of tools; see for example [this paper](https://doi.org/10.1093/gbe/evw171) for information on trace plots.
 
 If you (re)produce multiple such plots, we recommend using a file containing mappings
 between each estimator method (as you named in your experiment code) and a display name and colour.
@@ -27,6 +27,10 @@ We provide example data of autocorrelation traces, estimates for the accuracy ex
 
 ## Data
 
-TBA links to MCMC chains
+- The full MCMC runs and XML files for DS1-11 are available [here](https://doi.org/10.0.68.200/k6.auckland.c.8351665).
+- The full MCMC runs and XML files for Yule50 are available [here](https://doi.org/10.17608/k6.auckland.c.7102354).
+- Oversampled: The oversampled MCMC runs for DS1-11 are available here under `data/dsOversampled/`
+- Simulated chains: The simulated simple and noisy chains are not provided as they simply repeat sampled trees; the RNNI chains are available with DS1-11 [here](https://doi.org/10.17608/k6.auckland.c.7102354).
+
 
 
